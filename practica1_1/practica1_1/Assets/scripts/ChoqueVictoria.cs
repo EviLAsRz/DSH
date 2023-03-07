@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ChoqueVictoria : MonoBehaviour
+{
+    // Start is called before the first frame update
+    public GameObject particulas;
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    private void OnDestroy()
+    {
+        Vector3 posactual = new Vector3(transform.position.x, 0.5f, transform.position.z);
+        Instantiate(particulas, posactual, particulas.transform.rotation);
+        Debug.Log("Se destruye, has ganado!!");
+    }
+}
