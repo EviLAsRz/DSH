@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - enemigo
+  - jugador
   layers:
   - Default
   - TransparentFX
