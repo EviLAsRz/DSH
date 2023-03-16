@@ -8,6 +8,9 @@ public class tratamientoImpacto : MonoBehaviour
 
     Image barraVida;
     float vidaRestante;
+
+    public delegate void OnDeath();
+    public static event OnDeath OnDeathEnemigo;
    public void heSidoTocadoInside()
     {
         barraVida = this.transform.GetChild(0).GetChild(0).GetComponent<Image>();
@@ -17,6 +20,9 @@ public class tratamientoImpacto : MonoBehaviour
     
     public void estoyMuertoInside()
     {
+        if (OnDeathEnemigo != null)
+            OnDeathEnemigo();
+
         Destroy(gameObject);
     }
 }
