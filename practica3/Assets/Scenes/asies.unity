@@ -381,8 +381,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ordaEnemigos:
   - tipoenemigo: {fileID: 7343315445284179359, guid: bca8529c2cd6fa1469ee36776693ab5e, type: 3}
-    numEnemigos: 50
-    tiempoEnemigos: 2
+    numEnemigos: 20
+    tiempoEnemigos: 5
 --- !u!4 &867135815
 Transform:
   m_ObjectHideFlags: 0
@@ -398,6 +398,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1051630083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8226850198538661926, guid: adeac623fa667da4baec9da85bf060b0, type: 3}
+  m_PrefabInstance: {fileID: 1056210028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1051630086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051630083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e414baca9768338499a5989fcc75f21c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1056210028
 PrefabInstance:
   m_ObjectHideFlags: 0

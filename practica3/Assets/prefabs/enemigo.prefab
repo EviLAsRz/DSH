@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 7343315445284179366}
   - component: {fileID: 7343315445284179364}
   - component: {fileID: 7343315445284179367}
-  - component: {fileID: -7511807595981522169}
+  - component: {fileID: 6373712940487842905}
   m_Layer: 0
   m_Name: enemigo
   m_TagString: enemigo
@@ -135,7 +135,7 @@ Transform:
   m_GameObject: {fileID: 7343315445284179359}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 67.799934, y: 1.0105, z: 31.932531}
-  m_LocalScale: {x: 1.7, y: 1.7, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7343315444772209554}
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0073efd0af5611c4aa619f7ca29f0515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &-7511807595981522169
+--- !u!82 &6373712940487842905
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

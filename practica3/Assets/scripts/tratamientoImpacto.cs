@@ -11,7 +11,7 @@ public class tratamientoImpacto : MonoBehaviour
 
     public delegate void OnDeath();
     public static event OnDeath OnDeathEnemigo;
-   public void heSidoTocadoInside()
+    public void heSidoTocadoInside()
     {
         barraVida = this.transform.GetChild(0).GetChild(0).GetComponent<Image>();
         vidaRestante = GetComponent<gestorDeVidas>().Vida / GetComponent<gestorDeVidas>().MaxVida;
