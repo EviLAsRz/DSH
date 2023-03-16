@@ -6,10 +6,10 @@ public class xOrdas : MonoBehaviour
 {
     public xvaloresEnemigos[] ordaEnemigos;
     private xvaloresEnemigos ordaActual;
-    Vector3 posHorda = new Vector3 (51.0f, 3.0f, 13.0f);
+    Vector3 posHorda = new Vector3 (110.0f, 13.55f, -29.6f);
     float tiempoEspera = 0.0f;
     int numeroOrdaActual = 0; //Para ir recorriendo el array de los enemigos
-    int enemigosACrear = 0;
+    int enemigosACrear = 0;  //Enemigos totales a spawnear
     int enemigosporMatar = 0;
 
     // Start is called before the first frame update
