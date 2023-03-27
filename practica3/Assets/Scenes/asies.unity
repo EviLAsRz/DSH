@@ -381,7 +381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ordaEnemigos:
   - tipoenemigo: {fileID: 7343315445284179359, guid: bca8529c2cd6fa1469ee36776693ab5e, type: 3}
-    numEnemigos: 20
+    numEnemigos: 5
     tiempoEnemigos: 5
 --- !u!4 &867135815
 Transform:
