@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2497048869118085439, guid: 842385dd3292ad54a894dad64e2f66b5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 12.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3222628327787006211, guid: 842385dd3292ad54a894dad64e2f66b5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 12.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3523269105902672715, guid: 842385dd3292ad54a894dad64e2f66b5, type: 3}
       propertyPath: m_LocalScale.z
       value: 12
@@ -22,6 +30,14 @@ PrefabInstance:
     - target: {fileID: 7843470887209216966, guid: 842385dd3292ad54a894dad64e2f66b5, type: 3}
       propertyPath: m_LocalScale.z
       value: 12.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8108065655163320718, guid: 842385dd3292ad54a894dad64e2f66b5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266511700997123508, guid: 842385dd3292ad54a894dad64e2f66b5, type: 3}
+      propertyPath: m_Name
+      value: simpleWall_12
       objectReference: {fileID: 0}
     - target: {fileID: 8386388866205337615, guid: 842385dd3292ad54a894dad64e2f66b5, type: 3}
       propertyPath: m_RootOrder
